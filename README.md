@@ -10,7 +10,7 @@ Help Andy recover their toys and get the toys back in the toy collection.
 All of the toy data is stored in the db.json file. You'll want to access this data using a json server. In order to do this, run the following two commands:
    * npm install -g json-server
    * json-server --watch db.json
-   
+
 ##### This will create a server storing all of our lost toy data with restful routes at http://localhost:3000/toys.
 You can also check out http://localhost:3000/toys/:id
 
@@ -29,7 +29,7 @@ Each card should have the following child elements:
   * button tag with an class of "like-btn"
 
 After all if that - the toy card should resemble:
-
+<!--  -->
   ```
   <div class="card">
     <h2>Woody</h2>
